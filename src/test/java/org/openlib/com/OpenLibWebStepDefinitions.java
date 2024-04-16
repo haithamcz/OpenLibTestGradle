@@ -1,3 +1,5 @@
+package org.openlib.com;
+
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -17,7 +19,7 @@ import org.testng.Assert;
 import java.io.IOException;
 import java.time.Duration;
 
-public class OpenLibWeb {
+public class OpenLibWebStepDefinitions {
     OpenLibPageActions objOpenLibPage = new OpenLibPageActions();
 
     HttpServiceHandler httpServiceHandler = new HttpServiceHandler();

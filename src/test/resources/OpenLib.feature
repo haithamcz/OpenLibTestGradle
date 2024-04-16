@@ -6,7 +6,6 @@ Feature: AC test for OpenLibrary page
 
   @MatchAPIResponse
   Scenario: Match API response
-
     When User searches using title option for book "Life with Picasso"
     And User chooses book published in "1973"
     And Get author from API

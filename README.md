@@ -2,6 +2,8 @@
 
 The automation BDD Framework for the testing of web applications and REST APi using Cucumber, and Selenium WebDriver
 with TestNG and okhttp3.
+the test will open https://openlibrary.org/ and set the language to english, then search for a book and get the author value
+then connect the openlib backend api and call the author api for specific author and check the results matches to what was found on the UI.
 This framework consists of:-
 
 - Cucumber Java- 7.6.0

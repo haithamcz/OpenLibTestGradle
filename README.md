@@ -19,6 +19,10 @@ This framework consists of:-
 - Gradle Installed
 - Environment variables JAVA_HOME and GRADLE_HOME are correctly configured
 - ChromeDriver based on the chrome browser version download the project dir
+its define in the TestBaseClass  
+```
+  System.setProperty("webdriver.chrome.driver", "chromedriver");
+```
 
 ## Project Structure
 

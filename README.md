@@ -41,7 +41,6 @@ in main/java the org.openlib package contains, page action, page locators and ut
 - either as cucumber java tests in the feature file (OpenLib.feature) in test/resources
 - or in terminal go to project dir and type: ./gradlew cucumberCli
 
-
 ## Reports
 
 cucumber report link will be displayed in console at the end of execution with screenshot</br>

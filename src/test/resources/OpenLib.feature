@@ -8,5 +8,5 @@ Feature: AC test for OpenLibrary page
   Scenario: Match API response
     When User searches using title option for book "Life with Picasso"
     And User chooses book published in "1973"
-    And Get author from API
+    And Get author from API "F+.+Gilot"
     Then Author from API matches author on book page
